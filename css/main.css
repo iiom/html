@@ -1,0 +1,43 @@
+.flex {
+  margin: 10px;
+  display: flex;
+  /*height: 100%;*/
+  /*flex-direction: column;*/
+}
+
+.leftside {
+  display: flex;
+  background: gray;
+  width: 164px;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+h1 {color: blue;}
+h3 { background: gray;}
+
+.tel {
+  background: blue;
+}
+
+.web {
+  background: blue;
+}
+
+.mail {
+  background: blue;
+}
+
+.rightside {
+  /*   width: 500px; */
+  /*   flex-direction: column */
+  /*display: flex;*/
+  /*flex-grow: 1;*/
+
+}
+/* .rightside + .div {
+
+  margin-left:20px;
+} */
+
