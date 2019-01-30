@@ -1,43 +1,279 @@
-.flex {
-  margin: 10px;
-  display: flex;
-  /*height: 100%;*/
-  /*flex-direction: column;*/
+.container {
+    display: flex;
+    margin: 50px;
+    display: flex;
 }
 
 .leftside {
-  display: flex;
-  background: gray;
-  width: 164px;
-  flex-wrap: wrap;
-  flex-direction: column;
+    background: gray;
+    width: 823px;
+    height: 3463px;
+
 
 }
 
-h1 {color: blue;}
-h3 { background: gray;}
-
-.tel {
-  background: blue;
+.ava_img {
+    width: 823px;
+    height: 904px;
+    background-image: url("../img/ava.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.web {
-  background: blue;
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin: 0px;*/
 }
 
-.mail {
-  background: blue;
+.contact .phone {
+    display: flex;
+    flex-direction: row;
+    width: 823px;
+    height: 144px;
+    background-color: #0073bf;
+    align-items: center;
+}
+
+.contact img {
+    width: 66px;
+    height: 67px;
+    padding-left: 59px;
+}
+
+.contact .web {
+    display: flex;
+    width: 823px;
+    height: 144px;
+    background-color: #0099ff;
+    align-items: center;
+}
+
+.contact .mail {
+    display: flex;
+    width: 823px;
+    height: 144px;
+    background-color: #00d9ff;
+    align-items: center;
+}
+
+.contact p,
+.contact a {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 64px;
 }
 
 .rightside {
-  /*   width: 500px; */
-  /*   flex-direction: column */
-  /*display: flex;*/
-  /*flex-grow: 1;*/
-
+    width: 1610px;
+    height: 3463px;
 }
-/* .rightside + .div {
 
-  margin-left:20px;
-} */
+.profile .title {
+    padding-left: 103px;
+    color: #00aeef;
+    font-family: "Century Gothic";
+    font-size: 104px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 12.27px;
+}
 
+.profile .prof {
+    padding-left: 103px;
+    padding-top: 53px;
+    font-family: "Open Sans - Semibold";
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7.49px;
+}
+
+.profile .text {
+    padding-left: 103px;
+    padding-top: 63px;
+    font-family: "Open Sans";
+    font-size: 42px;
+    line-height: 65.85px;
+}
+
+.experience {
+    margin-top: 67px;
+}
+
+.experience .line,
+.education .line,
+.hobbies .line {
+    display: flex;
+    width: 1669px;
+    height: 101px;
+    background-color: #e5e5e5;
+}
+
+.experience .line p,
+.education .line p,
+.hobbies .line p {
+    align-self: center;
+    padding-left: 103px;
+    font-family: "Century Gothic";
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.29px;
+}
+
+.experience01 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 68px;
+}
+
+.experience01 .prof {
+    padding-left: 100px;
+    width: 320px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.experience01 .cont {
+    padding-left: 180px;
+    width: 344px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-right: 660px;
+}
+
+.experience01 .year {
+    padding-left: 100px;
+    width: 218px;
+    font-family: "Open Sans";
+    font-size: 37px;
+    letter-spacing: 1.87px;
+}
+
+.experience01 .text {
+    padding-left: 280px;
+    width: 934px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    line-height: 50.01px;
+}
+
+.experience02 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 82px;
+}
+
+.experience02 .prof {
+    padding-left: 100px;
+    width: 332px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.experience02 .cont {
+    padding-left: 176px;
+    margin-right: 780px;
+    width: 222px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.experience02 .year {
+    padding-left: 100px;
+    width: 218px;
+    font-family: "Open Sans";
+    font-size: 37px;
+    letter-spacing: 1.87px;
+}
+
+.experience02 .text {
+    padding-left: 292px;
+    width: 936px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    line-height: 50.01px;
+}
+
+.experience03 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 68px;
+}
+
+.experience03 .prof {
+    padding-left: 100px;
+    width: 320px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.experience03 .cont {
+    padding-left: 180px;
+    margin-right: 612px;
+    width: 392px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.experience03 .year {
+    padding-left: 100px;
+    width: 218px;
+    font-family: "Open Sans";
+    font-size: 37px;
+    letter-spacing: 1.87px;
+}
+
+.experience03 .text {
+    padding-left: 280px;
+    width: 934px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    line-height: 50.01px;
+}
+
+.experience04 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 82px;
+}
+
+.experience04 .prof {
+    padding-left: 100px;
+    width: 332px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.experience04 .cont {
+    padding-left: 176px;
+    margin-right: 610px;
+    width: 392px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.experience04 .year {
+    padding-left: 100px;
+    width: 218px;
+    font-family: "Open Sans";
+    font-size: 37px;
+    letter-spacing: 1.87px;
+}
+
+.experience04 .text {
+    padding-left: 292px;
+    width: 936px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    line-height: 50.01px;
