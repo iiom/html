@@ -8,8 +8,6 @@
     background: gray;
     width: 823px;
     height: 3463px;
-
-
 }
 
 .ava_img {
@@ -73,6 +71,8 @@
 
 .profile .title {
     padding-left: 103px;
+    width: 902px;
+    height: 79px;
     color: #00aeef;
     font-family: "Century Gothic";
     font-size: 104px;
@@ -83,7 +83,8 @@
 
 .profile .prof {
     padding-left: 103px;
-    padding-top: 53px;
+    width: 549px;
+    height: 38px;
     font-family: "Open Sans - Semibold";
     font-size: 50px;
     text-transform: uppercase;
@@ -92,14 +93,15 @@
 
 .profile .text {
     padding-left: 103px;
-    padding-top: 63px;
+    width: 1459px;
+    height: 306px;
     font-family: "Open Sans";
     font-size: 42px;
     line-height: 65.85px;
 }
 
 .experience {
-    margin-top: 67px;
+    /*margin-top: 67px;*/
 }
 
 .experience .line,
@@ -116,6 +118,7 @@
 .hobbies .line p {
     align-self: center;
     padding-left: 103px;
+    width: 277px;
     font-family: "Century Gothic";
     font-size: 46px;
     font-weight: 700;
@@ -126,12 +129,12 @@
 .experience01 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 68px;
 }
 
 .experience01 .prof {
     padding-left: 100px;
     width: 320px;
+    height: 31px;
     font-family: "Century Gothic";
     font-size: 33px;
     font-weight: 700;
@@ -140,6 +143,7 @@
 .experience01 .cont {
     padding-left: 180px;
     width: 344px;
+    height: 24px;
     font-family: "Century Gothic";
     font-size: 33px;
     text-transform: uppercase;
@@ -149,6 +153,7 @@
 .experience01 .year {
     padding-left: 100px;
     width: 218px;
+    height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
     letter-spacing: 1.87px;
@@ -157,6 +162,7 @@
 .experience01 .text {
     padding-left: 280px;
     width: 934px;
+    height: 136px;
     font-family: "Open Sans";
     font-size: 35px;
     line-height: 50.01px;
@@ -165,12 +171,13 @@
 .experience02 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 82px;
+    /*margin-top: 82px;*/
 }
 
 .experience02 .prof {
     padding-left: 100px;
     width: 332px;
+    height: 31px;
     font-family: "Century Gothic";
     font-size: 33px;
     font-weight: 700;
@@ -180,6 +187,7 @@
     padding-left: 176px;
     margin-right: 780px;
     width: 222px;
+    height: 24px;
     font-family: "Century Gothic";
     font-size: 33px;
     text-transform: uppercase;
@@ -188,6 +196,7 @@
 .experience02 .year {
     padding-left: 100px;
     width: 218px;
+    height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
     letter-spacing: 1.87px;
@@ -196,6 +205,7 @@
 .experience02 .text {
     padding-left: 292px;
     width: 936px;
+    height: 136px;
     font-family: "Open Sans";
     font-size: 35px;
     line-height: 50.01px;
@@ -204,12 +214,13 @@
 .experience03 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 68px;
+    /*margin-top: 68px;*/
 }
 
 .experience03 .prof {
     padding-left: 100px;
     width: 320px;
+    height: 31px;
     font-family: "Century Gothic";
     font-size: 33px;
     font-weight: 700;
@@ -219,6 +230,7 @@
     padding-left: 180px;
     margin-right: 612px;
     width: 392px;
+    height: 24px;
     font-family: "Century Gothic";
     font-size: 33px;
     text-transform: uppercase;
@@ -227,6 +239,7 @@
 .experience03 .year {
     padding-left: 100px;
     width: 218px;
+    height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
     letter-spacing: 1.87px;
@@ -235,6 +248,7 @@
 .experience03 .text {
     padding-left: 280px;
     width: 934px;
+    height: 136px;
     font-family: "Open Sans";
     font-size: 35px;
     line-height: 50.01px;
@@ -243,12 +257,13 @@
 .experience04 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 82px;
+    /*margin-top: 82px;*/
 }
 
 .experience04 .prof {
     padding-left: 100px;
     width: 332px;
+    height: 31px;
     font-family: "Century Gothic";
     font-size: 33px;
     font-weight: 700;
@@ -258,6 +273,7 @@
     padding-left: 176px;
     margin-right: 610px;
     width: 392px;
+    height: 24px;
     font-family: "Century Gothic";
     font-size: 33px;
     text-transform: uppercase;
@@ -266,6 +282,7 @@
 .experience04 .year {
     padding-left: 100px;
     width: 218px;
+    height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
     letter-spacing: 1.87px;
@@ -274,6 +291,231 @@
 .experience04 .text {
     padding-left: 292px;
     width: 936px;
+    height: 136px;
     font-family: "Open Sans";
     font-size: 35px;
     line-height: 50.01px;
+}
+
+.education01 {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-top: 73px;*/
+}
+
+.education01 .name {
+    padding-left: 100px;
+    width: 297px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.education01 .inst {
+    padding-left: 194px;
+    padding-right: 557px;
+    width: 462px;
+    height: 24px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    line-height: 58.33px;
+    text-transform: uppercase;
+}
+
+.education01 .year {
+    padding-left: 100px;
+    width: 217px;
+    height: 29px;
+    font-family: "Open Sans";
+    font-size: 37px;
+    letter-spacing: 1.87px;
+}
+
+.education01 .text {
+    padding-left: 277px;
+    width: 934px;
+    height: 136px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.education02 {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-top: 76px;*/
+}
+
+.education02 .name {
+    padding-left: 100px;
+    width: 297px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.education02 .inst {
+    padding-left: 195px;
+    margin-right: 559px;
+    width: 459px;
+    height: 24px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    line-height: 58.33px;
+    text-transform: uppercase;
+}
+
+.education02 .year {
+    padding-left: 100px;
+    width: 218px;
+    height: 29px;
+    font-family: "Open Sans";
+    font-size: 37px;
+    letter-spacing: 1.87px;
+}
+
+.education02 .text {
+    padding-left: 275px;
+    width: 936px;
+    height: 136px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    line-height: 50.01px;
+}
+
+.education03 {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-top: 78px;*/
+}
+
+.education03 .name {
+    padding-left: 100px;
+    width: 297px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.education03 .inst {
+    padding-left: 180px;
+    padding-right: 490px;
+    width: 529px;
+    height: 24px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    line-height: 58.33px;
+    text-transform: uppercase;
+}
+
+.education03 .year {
+    padding-left: 100px;
+    width: 219px;
+    height: 29px;
+    font-family: "Open Sans";
+    font-size: 37px;
+    letter-spacing: 1.87px;
+}
+
+.education03 .text {
+    padding-left: 275px;
+    width: 934px;
+    height: 136px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.hobbies {
+}
+
+.hobbies .cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1390px;
+    height: 110px;
+    margin-left: 133px;
+    margin-top: 79px;
+    /*border: 1px solid black;*/
+}
+
+.hobbies .music {
+    /*margin-left: 133px;*/
+    /*padding-left: 143px;*/
+}
+
+.hobbies .swwiming {
+    /*padding-left: 245px;*/
+}
+
+.hobbies .bowling_pins {
+    /*padding-left: 249px;*/
+}
+
+.hobbies .photography {
+    /*padding-left: 266px;*/
+}
+
+.hobbies .cycling {
+    /*padding-left: 192px;*/
+    /*padding-right: 85px;*/
+}
+
+
+.hobbies .music,
+.hobbies .swwiming,
+.hobbies .bowling_pins,
+.hobbies .photography,
+.hobbies .cycling {
+    align-self: baseline;
+}
+
+/*.hobbies img,*/
+.hobbies p {
+    /*align-self: center;*/
+    /*align-items: center;*/
+}
+
+.hobbies .music p {
+    width: 93px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.hobbies .swwiming p {
+    width: 162px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.hobbies .bowling_pins p {
+    width: 200px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.hobbies .photography p {
+    width: 204px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.hobbies .cycling p {
+    width: 121px;
+    height: 31px;
+    font-family: "Century Gothic";
+    font-size: 33px;
+    font-weight: 700;
+}
