@@ -5,7 +5,7 @@
 }
 
 .leftside {
-    background: gray;
+    background: #d9d9d9;
     width: 823px;
     height: 3463px;
 }
@@ -22,6 +22,10 @@
     display: flex;
     flex-wrap: wrap;
     /*margin: 0px;*/
+}
+
+.contact p {
+    color: #000000;
 }
 
 .contact .phone {
@@ -64,6 +68,225 @@
     padding-left: 64px;
 }
 
+.personal,
+.skills,
+.software,
+.reference {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 48px;
+}
+
+.personal .titl {
+    margin-top: 80px;
+    margin-right: 550px;
+    width: 224px;
+    height: 0px;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.personal .text1 {
+    width: 199px;
+    height: 207px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 57.09px;
+}
+
+.personal .text2 {
+    padding-left: 50px;
+    width: 5px;
+    height: 190px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 57.08px;
+}
+
+.personal .text3 {
+    padding-left: 37px;
+    width: 291px;
+    height: 206px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 57.08px;
+}
+
+.skills .titl {
+    margin-top: 77px;
+    margin-right: 550px;
+    width: 126px;
+    height: 0px;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.skills .text {
+    width: 261px;
+    height: 320px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 57.03px;
+}
+
+.skills .percentation div,
+.software .percentation div {
+    margin-left: 102px;
+    margin-top: 43px;
+    width: 373px;
+    height: 16px;
+}
+
+.software .percentation div {
+    margin-left: 138px;
+}
+
+.skills .percentation div:first-child,
+.software .percentation .div:first-child {
+    margin-top: 50px;
+}
+
+.skills .percentation .rectangle,
+.software .percentation .rectangle {
+    background: linear-gradient(to right, #00ffff 85%, #b6c0c1 15%);
+}
+
+.skills .percentation .rectangle01,
+.software .percentation .rectangle01 {
+    background: linear-gradient(to right, #00ffff 80%, #b6c0c1 20%);
+}
+
+.skills .percentation .rectangle02,
+.software .percentation .rectangle02 {
+    background: linear-gradient(to right, #00ffff 75%, #b6c0c1 25%);
+}
+
+.skills .percentation .rectangle03,
+.software .percentation .rectangle03 {
+    background: linear-gradient(to right, #00ffff 70%, #b6c0c1 30%);
+}
+
+.skills .percentation .rectangle04,
+.software .percentation .rectangle04 {
+    background: linear-gradient(to right, #00ffff 60%, #b6c0c1 40%);
+}
+
+.skills .percentation .rectangle05,
+.software .percentation .rectangle05 {
+    background: linear-gradient(to right, #00ffff 60%, #b6c0c1 40%);
+}
+
+.software .titl {
+    margin-top: 75px;
+    width: 729px;
+    height: 0px;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.software .text {
+    width: 225px;
+    height: 313px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 57.12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05px;
+}
+
+.reference .titl {
+    margin-top: 75px;
+    width: 253px;
+    height: 0px;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 62.49px;
+    text-transform: uppercase;
+    /* Text style for "Reference" */
+    letter-spacing: 2.29px;
+}
+
+.ref1 .name,
+.ref2 .name {
+    padding-top: 40px;
+    width: 785px;
+    height: 0px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50.05px;
+    text-transform: uppercase;
+}
+
+.ref2 .name {
+    padding-top: 45px;
+}
+
+.ref1 .text1,
+.ref2 .text1 {
+    padding-top: 24px;
+    width: 541px;
+    height: 1px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    font-family: "Open Sans - Semibold";
+    font-weight: 600;
+}
+
+.ref1 .text2,
+.ref2 .text2 {
+    /* Style for "Director," */
+    width: 541px;
+    height: 1px;
+    color: #000000;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.ref1 .text3,
+.ref2 .text3 {
+    width: 541px;
+    height: 1px;
+    color: #000000;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: "Open Sans";
+    /*font-weight: 700;*/
+}
+
+.ref1 span,
+.ref2 span {
+    font-weight: 700;
+}
+
+
+/*_____________________________________*/
 .rightside {
     width: 1610px;
     height: 3463px;
@@ -141,7 +364,7 @@
 }
 
 .experience01 .cont {
-    padding-left: 180px;
+    padding-left: 186px;
     width: 344px;
     height: 24px;
     font-family: "Century Gothic";
@@ -160,7 +383,7 @@
 }
 
 .experience01 .text {
-    padding-left: 280px;
+    padding-left: 286px;
     width: 934px;
     height: 136px;
     font-family: "Open Sans";
@@ -184,7 +407,7 @@
 }
 
 .experience02 .cont {
-    padding-left: 176px;
+    padding-left: 174px;
     margin-right: 780px;
     width: 222px;
     height: 24px;
@@ -203,7 +426,7 @@
 }
 
 .experience02 .text {
-    padding-left: 292px;
+    padding-left: 290px;
     width: 936px;
     height: 136px;
     font-family: "Open Sans";
@@ -464,7 +687,6 @@
     /*padding-left: 192px;*/
     /*padding-right: 85px;*/
 }
-
 
 .hobbies .music,
 .hobbies .swwiming,
