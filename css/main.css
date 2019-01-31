@@ -223,7 +223,6 @@
     font-weight: 700;
     line-height: 62.49px;
     text-transform: uppercase;
-    /* Text style for "Reference" */
     letter-spacing: 2.29px;
 }
 
@@ -259,7 +258,6 @@
 
 .ref1 .text2,
 .ref2 .text2 {
-    /* Style for "Director," */
     width: 541px;
     height: 1px;
     color: #000000;
@@ -277,7 +275,6 @@
     font-size: 35px;
     line-height: 50px;
     font-family: "Open Sans";
-    /*font-weight: 700;*/
 }
 
 .ref1 span,
@@ -285,8 +282,6 @@
     font-weight: 700;
 }
 
-
-/*_____________________________________*/
 .rightside {
     width: 1610px;
     height: 3463px;
@@ -321,10 +316,6 @@
     font-family: "Open Sans";
     font-size: 42px;
     line-height: 65.85px;
-}
-
-.experience {
-    /*margin-top: 67px;*/
 }
 
 .experience .line,
@@ -375,7 +366,7 @@
 
 .experience01 .year {
     padding-left: 100px;
-    width: 218px;
+    width: 221px;
     height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
@@ -394,7 +385,6 @@
 .experience02 {
     display: flex;
     flex-wrap: wrap;
-    /*margin-top: 82px;*/
 }
 
 .experience02 .prof {
@@ -418,7 +408,7 @@
 
 .experience02 .year {
     padding-left: 100px;
-    width: 218px;
+    width: 221px;
     height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
@@ -437,7 +427,6 @@
 .experience03 {
     display: flex;
     flex-wrap: wrap;
-    /*margin-top: 68px;*/
 }
 
 .experience03 .prof {
@@ -461,7 +450,7 @@
 
 .experience03 .year {
     padding-left: 100px;
-    width: 218px;
+    width: 221px;
     height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
@@ -504,7 +493,7 @@
 
 .experience04 .year {
     padding-left: 100px;
-    width: 218px;
+    width: 221px;
     height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
@@ -548,7 +537,7 @@
 
 .education01 .year {
     padding-left: 100px;
-    width: 217px;
+    width: 221px;
     height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
@@ -592,7 +581,7 @@
 
 .education02 .year {
     padding-left: 100px;
-    width: 218px;
+    width: 221px;
     height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
@@ -636,7 +625,7 @@
 
 .education03 .year {
     padding-left: 100px;
-    width: 219px;
+    width: 221px;
     height: 29px;
     font-family: "Open Sans";
     font-size: 37px;
@@ -652,9 +641,6 @@
     line-height: 50px;
 }
 
-.hobbies {
-}
-
 .hobbies .cont {
     display: flex;
     flex-wrap: wrap;
@@ -663,29 +649,6 @@
     height: 110px;
     margin-left: 133px;
     margin-top: 79px;
-    /*border: 1px solid black;*/
-}
-
-.hobbies .music {
-    /*margin-left: 133px;*/
-    /*padding-left: 143px;*/
-}
-
-.hobbies .swwiming {
-    /*padding-left: 245px;*/
-}
-
-.hobbies .bowling_pins {
-    /*padding-left: 249px;*/
-}
-
-.hobbies .photography {
-    /*padding-left: 266px;*/
-}
-
-.hobbies .cycling {
-    /*padding-left: 192px;*/
-    /*padding-right: 85px;*/
 }
 
 .hobbies .music,
@@ -694,12 +657,6 @@
 .hobbies .photography,
 .hobbies .cycling {
     align-self: baseline;
-}
-
-/*.hobbies img,*/
-.hobbies p {
-    /*align-self: center;*/
-    /*align-items: center;*/
 }
 
 .hobbies .music p {
