@@ -512,7 +512,6 @@
 .education01 {
     display: flex;
     flex-wrap: wrap;
-    /*margin-top: 73px;*/
 }
 
 .education01 .name {
